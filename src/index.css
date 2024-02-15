@@ -1,0 +1,28 @@
+:root {
+  --primaryColor: #333;
+  --secondColor: #8c8c93;
+  --mainRed: #c93400;
+  --mainGreen: #248a3d;
+  --mainBlue: #0871a4;
+  --mainWhite: #66666
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primaryColor);
+  color: var(--secondColor);
+}
+
+.btn {
+  text-align: center;
+  font-size: 15px;
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--mainWhite);
+  outline: 0;
+  border: none;
+}

@@ -1,0 +1,39 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    line-height: 3rem;
+    flex: 0 0 55%;
+
+    align-items: center;
+}
+
+.item {
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.expense {
+    margin-right: 2rem;
+}
+
+.amount {
+    padding: 3px;
+}
+
+.btn {
+    border: 1px solid var(--secondColor);
+    border-radius: 12px;
+    padding: 4px 20px;
+}
+
+.edit-btn {
+    color: var(--mainGreen);
+}
+
+.clear-btn {
+    color: var(--mainRed);
+}
